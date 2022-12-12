@@ -594,3 +594,39 @@ form{
         width: 100%;
       }
 }
+
+.logo-enbas{
+    padding: 30px;
+    display: none;
+}
+
+@media(max-width:410px){
+
+    #logo{
+        margin-left: 10px;
+    }
+
+    header{
+        width: auto;
+    }
+
+    #header_text{
+    }
+
+    #body-contact{
+        background-image: url("img/Background\ ContactPage\ Responsive.png");
+        background-size: cover;
+    }
+
+    .stock-form-info{
+        flex-direction: column-reverse;
+    }
+
+    .stock-form{
+        width: auto;
+    }
+
+    .logo-enbas{
+        display: block;
+    }
+}
