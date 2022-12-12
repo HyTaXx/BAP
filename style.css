@@ -6,16 +6,23 @@
     box-sizing: border-box;
     transition: all 0.3s;
 }
+:root{
+    --light-background-color: #E5E5D6;
+    --light-button-color: #E5D6B1;
+    --dark-background-color: #022135;
+    --black-text-color: #1C0000;
+    --light-shadow-color: #84827F;
+}
 
 body{
-    background-color: #E5E5D6;
+    background-color: var(--light-background-color);
     line-height: 1.2;
 }
 
 .mes-services{
     margin-top: -100px;
     clip-path: polygon(0 0, 100% 10%, 100% 100%, 0% 100%);
-    background: #E5E5D6 ;
+    background: var(--light-background-color) ;
     padding: 40px;
     height: 580px;
 }
@@ -40,8 +47,9 @@ body{
     width: 180px;
     height: 41px;
     margin: auto;
-    background: #022135;
-    font-family: "sofia-pro",light;
+    background: var(--dark-background-color);
+    font-family: "sofia-pro",sans-serif;
+    font-weight : lighter;
     color: white;
     box-shadow: -10px 0px 0px 0px #9AA38F;
     font-size: 16px;
@@ -63,7 +71,8 @@ body{
 }
 
 .titre-section-services{
-    font-family: "sofia-pro",semi-bold;
+    font-family: "sofia-pro",sans-serif;
+    font-weight: semi-bold;
     font-size: 24px;
 }
 
@@ -127,14 +136,16 @@ a{
 
 #titre-savoir-plus{
     font-size: 32;
-    font-family: "sofia-pro",bold;
+    font-family: "sofia-pro",sans-serif;
+    font-weight: bold;
     color: white;
 }
 
 #texte-savoir-plus{
     color: white;
     font-size: 20;
-    font-family: "sofia-pro",light;
+    font-family: "sofia-pro",sans-serif;
+    font-weight: lighter;
 }
 
 .savoir-plus{
@@ -158,18 +169,19 @@ a{
 }
 
 #btn-savoir-plus{
-    font-family: "sofia-pro",Bold;
+    font-family: "sofia-pro",sans-serif;
+    font-weight: bold;
     margin-top: 24px;
-    background-color: #E5D6B1;
+    background-color: var(--light-button-color);
     display: inline-block;
     cursor: pointer;
-    box-shadow: inset 10px 0 0 0 #84827F;
+    box-shadow: inset 10px 0 0 0 var(--light-shadow-color);
     border: 0;
-    color: #000;
+    color: var(--black-text-color);
     font-size: 24px;
     padding: 14px 36px 14px 36px;
     transition: all 0.8s;
-    width: 346px;
+    width: 350px;
 }
 
 
@@ -183,7 +195,7 @@ header{
     align-items: center;
     height: 8vh;
     width: 100%;
-    background-color: #022135;
+    background-color: var(--dark-background-color);
     font-size: 20px;
     font-family: 'sofia-pro';
 
@@ -192,11 +204,11 @@ header{
 #contactez{
     text-align: center;
     vertical-align: middle;
-    background-color: #E5D6B1;
+    background-color: var(--light-button-color);
     height: 100%;
     width: 20vw; 
     line-height: 8vh;
-    color: #000;
+    color: var(--black-text-color);
 }
 
 #header_text{
@@ -236,14 +248,14 @@ header{
 
 .text_slogan_2>span{
     font-size: 64px;
-    color: #E5D6B1;
+    color: var(--light-button-color);
 }
 .text_slogan_3{
     margin-left: 240px;
 }
 .text_slogan_3>span{
     font-size: 128px;
-    color: #E5E5D6;
+    color: var(--light-background-color);
     vertical-align:-52px;
 }
 .intro{
@@ -258,12 +270,12 @@ header{
 }
 #Contactez_moi{
     margin-bottom: 100px;
-    background-color: #E5D6B1;
+    background-color: var(--light-button-color);
     display: inline-block;
     cursor: pointer;
-    box-shadow: inset 10px 0 0 0 #84827F;
+    box-shadow: inset 10px 0 0 0 var(--light-shadow-color);
     border: 0;
-    color: #000;
+    color: var(--black-text-color);
     font-size: 24px;
     padding: 14px 36px 14px 36px;
     transition: all 0.8s;
@@ -272,17 +284,10 @@ header{
 }
 
 #Contactez_moi:hover{
-    box-shadow: inset 220px 0 0 0 #84827F;
+    box-shadow: inset 230px 0 0 0  var(--light-shadow-color);
 }
 
-:root{
-    --light-background-color: #E5E5D6;
-    --light-button-color: #E5D6B1;
-    --dark-background-color: #022135;
-    --black-text-color: #1C0000;
-    --light-shadow-color: #84827F;
 
-}
 
 
 img{
@@ -375,7 +380,7 @@ footer{
 }
 
 .contact:hover{
-    box-shadow: inset 14.5rem 0 0 0    var(--light-shadow-color);
+    box-shadow: inset 230px 0 0 0    var(--light-shadow-color);
 }
 
 .h2-exp{
