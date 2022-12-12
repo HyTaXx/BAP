@@ -415,7 +415,7 @@ p{
 }
 
 #body-contact{
-    background-image: url("img/Rectangle\ 81.png");
+    background-image: url("img/Background\ ContactPage.png");
     background-size: cover;
 }
 
@@ -428,9 +428,7 @@ p{
 
 .stock-form{
     position: relative;
-    background-color: #E5E5D6;
     height: 670px;
-    box-shadow: -10px 0px 0px 0px #E5D6B1;
     width:570px;
     padding: 30px;
 }
@@ -439,9 +437,7 @@ p{
     display: flex;
     flex-direction: column;
     max-width: 508px;
-    background-color: #E5E5D6;
     height: 670px;
-    box-shadow: -10px 0px 0px 0px #E5D6B1;
 }
 
 .haut-infos{
@@ -461,38 +457,22 @@ p{
     clip-path: polygon(0 0, 100% 10%, 100% 100%, 0% 100%);
 }
 
-.haut-form{
-    top: 0;
-    background-color: #022135;
-    height: 62%;
-    width: 570px;
-    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 90%);
-    position: absolute;
-    padding: 30px;
-    margin-left: -30px;
-}
-
-.fond{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    background-color: white;
-    opacity: 33%;
-}
-
 #titre-infos{
     font-family: "sofia-pro",bold;
     font-size: 24px;
+    color: white;
 }
 
 #titre-infos2{
     font-family: "sofia-pro",semi-bold;
     font-size: 20px;
+    color: white;
 }
 
 #texte-infos{
     font-family: "Halant";
     font-size: 16px;
+    color: white;
 }
 
 .top-gap{
@@ -510,11 +490,13 @@ p{
     width: 248px;
     height: 56px;
     margin: auto;
-    background: #022135;
-    font-family: "sofia-pro",light;
-    color: white;
+    background: #E5D6B1;
+    font-family: "sofia-pro",bold;
+    color: black;
     box-shadow: -10px 0px 0px 0px #9AA38F;
     font-size: 16px;
+    border: none;
+    font-size: 20px;
 }
 
 .button-form:hover{
