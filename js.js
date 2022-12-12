@@ -12,7 +12,6 @@ function test(x,y,z){
     document.getElementById("s2").style.backgroundColor=""
     document.getElementById("s3").style.backgroundColor=""
     document.getElementById("s4").style.backgroundColor=""
-
     document.getElementById("b1").style.boxShadow="-10px 0px 0px 0px #9AA38F";
     document.getElementById("b2").style.boxShadow="-10px 0px 0px 0px #9AA38F";
     document.getElementById("b3").style.boxShadow="-10px 0px 0px 0px #9AA38F";
