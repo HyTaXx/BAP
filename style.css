@@ -13,6 +13,7 @@
     --black-text-color: #1C0000;
     --light-button-shadow-color: #84827F;
     --shadow-color: #9AA28F;
+    --service-hover-color:#B6B6A9;
 }
 
 body{
@@ -40,7 +41,7 @@ body{
 }
 
 .services:hover{
-    background-color: #b6b6a9;
+    background-color: var(--service-hover-color);
     transition: 0.3s;
     cursor:pointer;
 }
@@ -196,12 +197,8 @@ header{
     display: flex;
     align-items: center;
     height: 8vh;
-<<<<<<< HEAD
-    background-color: #022135;
-=======
     width: 100%;
     background-color: var(--dark-background-color);
->>>>>>> 25b9305c412526e0c74eb9a85381ea9673b2fca2
     font-size: 20px;
     font-family: 'sofia-pro';
 
@@ -357,14 +354,10 @@ footer{
 }
 
 .light-button{
-<<<<<<< HEAD
     background-color: var(--light-button-color);
     color: var(--black-text-color);
     box-shadow: -8px  0 var(--light-shadow-color);
-    font-family: "sofia-pro";
-=======
-    font-family: "sofia-pro", sans-serif;
->>>>>>> 25b9305c412526e0c74eb9a85381ea9673b2fca2
+    font-family: "sofia-pro",sans-serif;
     font-weight: bold;
 }
 
@@ -456,10 +449,7 @@ footer{
     color: white;
     padding: 30px;
     height: 55%;
-<<<<<<< HEAD
-=======
     background-color: var(--dark-background-color);
->>>>>>> 25b9305c412526e0c74eb9a85381ea9673b2fca2
     clip-path: polygon(0 0, 100% 10%, 100% 100%, 0% 100%);
 }
 
@@ -612,7 +602,6 @@ form{
     }
     #contactez{
         width: 100%;
-<<<<<<< HEAD
       }
 
       .stock-form-info{
@@ -626,7 +615,7 @@ form{
 
       .stock-infos{
         width: 100vw;
-        background-color: #022135;
+        background-color: var(--dark-background-color);
         clip-path: polygon(0 0, 100% 10%, 100% 100%, 0% 100%);
         max-width: none;
         padding-top: 100px;
@@ -635,8 +624,6 @@ form{
       #body-contact{
         background-image: url("img/Background\ ContactPage\ Responsive.png");
         background-size: cover;
-=======
->>>>>>> 25b9305c412526e0c74eb9a85381ea9673b2fca2
     }
 }
 
@@ -653,7 +640,7 @@ form{
 @media(max-width:410px){
 
     body{
-        background-color: #022135;
+        background-color: var(--dark-background-color);
     }
 
     #logo{
@@ -662,9 +649,6 @@ form{
 
     header{
         width: auto;
-    }
-
-    #header_text{
     }
 
     .stock-form-info{
@@ -681,7 +665,7 @@ form{
 
     .bas-infos{
         clip-path: none;
-        background-color: #022135;
+        background-color: var(--dark-background-color);
     }
 
     .stock-infos{
