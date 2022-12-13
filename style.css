@@ -6,16 +6,23 @@
     box-sizing: border-box;
     transition: all 0.3s;
 }
+:root{
+    --light-background-color: #E5E5D6;
+    --light-button-color: #E5D6B1;
+    --dark-background-color: #022135;
+    --black-text-color: #1C0000;
+    --light-shadow-color: #84827F;
+}
 
 body{
-    background-color: #E5E5D6;
+    background-color: var(--light-background-color);
     line-height: 1.2;
 }
 
 .mes-services{
     margin-top: -100px;
     clip-path: polygon(0 0, 100% 10%, 100% 100%, 0% 100%);
-    background: #E5E5D6 ;
+    background: var(--light-background-color) ;
     padding: 40px;
     height: 580px;
 }
@@ -40,8 +47,9 @@ body{
     width: 180px;
     height: 41px;
     margin: auto;
-    background: #022135;
-    font-family: "sofia-pro",light;
+    background: var(--dark-background-color);
+    font-family: "sofia-pro",sans-serif;
+    font-weight : 300;
     color: white;
     box-shadow: -10px 0px 0px 0px #9AA38F;
     font-size: 16px;
@@ -63,7 +71,8 @@ body{
 }
 
 .titre-section-services{
-    font-family: "sofia-pro",semi-bold;
+    font-family: "sofia-pro",sans-serif;
+    font-weight: 600;
     font-size: 24px;
 }
 
@@ -126,15 +135,17 @@ a{
 }
 
 #titre-savoir-plus{
-    font-size: 32;
-    font-family: "sofia-pro",bold;
+    font-size: 32px;
+    font-family: "sofia-pro",sans-serif;
+    font-weight: bold;
     color: white;
 }
 
 #texte-savoir-plus{
     color: white;
-    font-size: 20;
-    font-family: "sofia-pro",light;
+    font-size: 20px;
+    font-family: "sofia-pro",sans-serif;
+    font-weight: 300;
 }
 
 .savoir-plus{
@@ -158,18 +169,19 @@ a{
 }
 
 #btn-savoir-plus{
-    font-family: "sofia-pro",Bold;
+    font-family: "sofia-pro",sans-serif;
+    font-weight: bold;
     margin-top: 24px;
-    background-color: #E5D6B1;
+    background-color: var(--light-button-color);
     display: inline-block;
     cursor: pointer;
-    box-shadow: inset 10px 0 0 0 #84827F;
+    box-shadow: inset 10px 0 0 0 var(--light-shadow-color);
     border: 0;
-    color: #000;
+    color: var(--black-text-color);
     font-size: 24px;
     padding: 14px 36px 14px 36px;
     transition: all 0.8s;
-    width: 346px;
+    width: 350px;
 }
 
 
@@ -183,7 +195,7 @@ header{
     align-items: center;
     height: 8vh;
     width: 100vw;
-    background-color: #022135;
+    background-color: var(--dark-background-color);
     font-size: 20px;
     font-family: 'sofia-pro';
 
@@ -192,11 +204,11 @@ header{
 #contactez{
     text-align: center;
     vertical-align: middle;
-    background-color: #E5D6B1;
+    background-color: var(--light-button-color);
     height: 100%;
     width: 20vw; 
     line-height: 8vh;
-    color: #000;
+    color: var(--black-text-color);
 }
 
 #header_text{
@@ -211,7 +223,7 @@ header{
     gap: 72px;
     margin-right: 88px;
     line-height: 8vh; 
-    font-weight: lighter;  
+    font-weight: 300;  
 }
 
 #section_1{
@@ -236,14 +248,14 @@ header{
 
 .text_slogan_2>span{
     font-size: 64px;
-    color: #E5D6B1;
+    color: var(--light-button-color);
 }
 .text_slogan_3{
     margin-left: 240px;
 }
 .text_slogan_3>span{
     font-size: 128px;
-    color: #E5E5D6;
+    color: var(--light-background-color);
     vertical-align:-52px;
 }
 .intro{
@@ -251,91 +263,65 @@ header{
     margin-top: 40px;
     width: 468px;
     font-size: 20px;
-    font-weight: lighter;
+    font-weight: 300;
 }
 .intro>p{
     margin-bottom: 24px;
 }
 #Contactez_moi{
     margin-bottom: 100px;
-    background-color: #E5D6B1;
+    background-color: var(--light-button-color);
     display: inline-block;
     cursor: pointer;
-    box-shadow: inset 10px 0 0 0 #84827F;
+    box-shadow: inset 10px 0 0 0 var(--light-shadow-color);
     border: 0;
-    color: #000;
+    color: var(--black-text-color);
     font-size: 24px;
     padding: 14px 36px 14px 36px;
     transition: all 0.8s;
     font-weight: bold;
+    font-family:  "sofia-pro", sans-serif;
 }
 
 #Contactez_moi:hover{
-    box-shadow: inset 220px 0 0 0 #84827F;
+    box-shadow: inset 230px 0 0 0  var(--light-shadow-color);
 }
 
-:root{
-    --light-background-color: #E5E5D6;
-    --light-button-color: #E5D6B1;
-    --dark-background-color: #022135;
-    --black-text-color: #1C0000;
-    --light-shadow-color: #84827F;
 
-}
 
 
 img{
     max-width:100%;
 }
-/*
-h2{
-    font-size: 2.5rem;
-    font-weight: bold;
 
-}
-h3{
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-
-button{
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
-    border:none;
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-*/
 footer{
     background-color: var(--dark-background-color);
     color: #FFF;
     padding: 4rem;
-    background-image: url('images/footer_background.svg');
+    background-image: url('img/footer_background.svg');
     background-repeat: no-repeat;
     background-position: right;
     display: flex;
     flex-direction: row;
     gap: 1.5rem;
     justify-content: space-around;
+    font-family: "sofia-pro", sans-serif;
 }
-/*
-p{
-    font-family: 'Halant', serif;
-    font-weight: 300;
-}
-*/
+
 .pl-4{
     padding-left: 4rem;
 }
 .pad-top{
-    margin-top: 1.5rem;
+    margin-top: 2.5rem;
 }
 .bigger-p{
     font-size: 1.25rem;
     font-weight: bold;
-    font-family: sofia-pro, sans-serif;
+    font-family: "sofia-pro", sans-serif;
+}
+
+.sofia{
+    font-family:"sofia-pro", sans-serif;
 }
 
 .flex-col{
@@ -365,9 +351,8 @@ p{
 }
 
 .light-button{
-    background-color: var(--light-button-color);
-    color: var(--black-text-color);
-    box-shadow: -8px  0 var(--light-shadow-color);
+    font-family: "sofia-pro", sans-serif;
+    font-weight: bold;
 }
 
 .logo-footer{
@@ -376,7 +361,7 @@ p{
 
 
 .confidentialite{
-    padding-top: 4rem;
+    padding-top: 10rem;
     justify-content: flex-end;
 }
 
@@ -390,13 +375,14 @@ p{
     border: 0;
     color: var(--black-text-color);
     font-size: 1.5rem;
-    padding: 1rem 2rem 1rem 2rem;
+    padding: 14px 36px 14px 36px;
     transition: all 0.8s;
 }
 
 .contact:hover{
-    box-shadow: inset 14.5rem 0 0 0    var(--light-shadow-color);
+    box-shadow: inset 230px 0 0 0    var(--light-shadow-color);
 }
+
 
 .h2-exp{
     font-size: 2.5rem;
@@ -412,6 +398,9 @@ p{
 .p-exp{
     font-family: 'Halant', serif;
     font-weight: 300;
+}
+.light{
+    font-weight:300;
 }
 
 #body-contact{
