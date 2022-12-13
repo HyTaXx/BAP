@@ -200,7 +200,7 @@ header{
     align-items: center;
     height: 8vh;
     width: 100%;
-    background-color: var(--dark-background-color);
+    background-color: #022135;
     font-size: 20px;
     font-family: 'sofia-pro';
 
@@ -356,7 +356,10 @@ footer{
 }
 
 .light-button{
-    font-family: "sofia-pro", sans-serif;
+    background-color: var(--light-button-color);
+    color: var(--black-text-color);
+    box-shadow: -8px  0 var(--light-shadow-color);
+    font-family: "sofia-pro";
     font-weight: bold;
 }
 
@@ -448,7 +451,6 @@ footer{
     color: white;
     padding: 30px;
     height: 55%;
-    background-color: var(--dark-background-color);
     clip-path: polygon(0 0, 100% 10%, 100% 100%, 0% 100%);
 }
 
@@ -601,6 +603,28 @@ form{
     }
     #contactez{
         width: 100%;
+      }
+
+      .stock-form-info{
+        flex-direction: column-reverse;
+        justify-content: center ;
+      }
+
+      .stock-form{
+        margin: auto;
+      }
+
+      .stock-infos{
+        width: 100vw;
+        background-color: #022135;
+        clip-path: polygon(0 0, 100% 10%, 100% 100%, 0% 100%);
+        max-width: none;
+        padding-top: 100px;
+      }
+
+      #body-contact{
+        background-image: url("img/Background\ ContactPage\ Responsive.png");
+        background-size: cover;
     }
 }
 
@@ -628,9 +652,6 @@ form{
         width: auto;
     }
 
-    #header_text{
-    }
-
     .stock-form-info{
         flex-direction: column-reverse;
     }
@@ -644,6 +665,7 @@ form{
     }
 
     .bas-infos{
+        padding: 16px;
         clip-path: none;
         background-color: #022135;
     }
