@@ -196,12 +196,7 @@ header{
     display: flex;
     align-items: center;
     height: 8vh;
-<<<<<<< HEAD
     background-color: #022135;
-=======
-    width: 100%;
-    background-color: var(--dark-background-color);
->>>>>>> 25b9305c412526e0c74eb9a85381ea9673b2fca2
     font-size: 20px;
     font-family: 'sofia-pro';
 
@@ -357,14 +352,10 @@ footer{
 }
 
 .light-button{
-<<<<<<< HEAD
     background-color: var(--light-button-color);
     color: var(--black-text-color);
     box-shadow: -8px  0 var(--light-shadow-color);
     font-family: "sofia-pro";
-=======
-    font-family: "sofia-pro", sans-serif;
->>>>>>> 25b9305c412526e0c74eb9a85381ea9673b2fca2
     font-weight: bold;
 }
 
@@ -456,10 +447,6 @@ footer{
     color: white;
     padding: 30px;
     height: 55%;
-<<<<<<< HEAD
-=======
-    background-color: var(--dark-background-color);
->>>>>>> 25b9305c412526e0c74eb9a85381ea9673b2fca2
     clip-path: polygon(0 0, 100% 10%, 100% 100%, 0% 100%);
 }
 
@@ -612,7 +599,6 @@ form{
     }
     #contactez{
         width: 100%;
-<<<<<<< HEAD
       }
 
       .stock-form-info{
@@ -635,8 +621,6 @@ form{
       #body-contact{
         background-image: url("img/Background\ ContactPage\ Responsive.png");
         background-size: cover;
-=======
->>>>>>> 25b9305c412526e0c74eb9a85381ea9673b2fca2
     }
 }
 
@@ -662,9 +646,6 @@ form{
 
     header{
         width: auto;
-    }
-
-    #header_text{
     }
 
     .stock-form-info{
