@@ -34,7 +34,7 @@
                 <h2 id="titre-infos2">Contactez-Moi pour obtenir la meilleure solution !</h2>
             </div>
             <div class="logo-enbas">
-                <img src="img/logo2.png" alt="logo" width="50%">
+                <img src="img/Logo_2.png" alt="logo" width="50%">
             </div>
             <div class="bas-infos">
                 <div class="top-gap">
