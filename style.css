@@ -26,7 +26,7 @@ body{
     clip-path: polygon(0 0, 100% 10%, 100% 100%, 0% 100%);
     background: var(--light-background-color) ;
     padding: 40px;
-    height: 580px;
+    margin-bottom: 60px;
 }
 
 .services{
@@ -66,8 +66,8 @@ body{
 }
 
 .stock-services{
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
     justify-content: space-evenly;
     padding: 50px;
 }
@@ -129,6 +129,8 @@ body{
 
 .img-a-propos{
     margin: auto;
+    min-width: 300px;
+    min-height: 380px;
 }
 
 a{
@@ -241,11 +243,14 @@ header{
     font-family: 'sofia-pro';
 }
 
-#slogan{
+#slogan_1{
     margin-left: 28vw;
     padding-top: 56px;
     font-size: 48px;
     font-weight: bold;
+}
+#slogan_2{
+    display: none;
 }
 .text_slogan_2{
     margin-left: 50px;
@@ -289,7 +294,7 @@ header{
 }
 
 #Contactez_moi:hover{
-    box-shadow: inset 230px 0 0 0  var(--light-button-shadow-color);
+    box-shadow: inset 220px 0 0 0  var(--light-button-shadow-color);
 }
 
 
@@ -562,8 +567,61 @@ form{
     font-weight: bold;
     font-size : 1.5rem;
 }
-
+@media(max-width:1312px) {
+    .intro{
+        margin-left: calc(40% + 200px);
+        width: 350px;
+    }
+    .text_slogan_2{
+        margin-left: 30px;
+    }
+    .text_slogan_3{
+        margin-left: 120px;
+    }
+    .text_slogan_3>span{
+        font-size: 100px;
+        vertical-align: -36px;
+    }
+    .mes-services{
+        padding: 40px 0 0 0;
+    }
+    footer{
+        background-image: none;
+    }
+    
+}
 @media(max-width:1024px){
+    #section_1{
+        background-position: left;
+    }
+    #slogan{
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+    }
+    
+    .text_slogan_2{
+        margin-left: 0;
+    }
+    .text_slogan_3{
+        margin-left: 0;
+    }
+    .intro{
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        text-align: center;
+    }
+    .stock-services{
+        grid-template-columns: repeat(2,300px);
+    }
+    #texte-savoir-plus{
+        width: 60%;
+    }
+    .savoir-plus{
+    background-size: 1000px 500px;
+    background-position: center;
+    }
     .hamburger{
         display: block;
     }
@@ -626,14 +684,77 @@ form{
         background-image: url("img/Background\ ContactPage\ Responsive.png");
         background-size: cover;
     }
+    .footer_contact{
+        flex-direction: column;
+    }
+    .confidentialite{
+        padding-top: 1rem;
+    }
 }
 
 .logo-enbas{
     padding: 30px;
     display: none;
 }
-
+@media(max-width:800px) {
+    footer{
+        flex-direction: column !important;
+        padding: 0;
+    }
+    .bigger-p{
+        width: 80%;
+    }
+    footer>div:nth-child(1){
+        background-color: #022135;
+        padding: 24px 4em 32px;
+    }
+    footer>div:nth-child(2){
+        background-color: #000F19;
+        padding: 32px 24px 12px;
+    }
+    .flex-col{
+        gap: 16px;
+    }
+    .flex-row>div>a{
+        margin-top: 16px;
+    }
+}
 @media(max-width:660px){
+    header{
+        height: 6vh;
+    }
+    #logo{
+        margin-left: 20px;
+    }
+    #slogan_2{
+        padding-top: 24px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        display: block;
+        font-size: 36px;
+        font-family: "sofia-pro";
+        font-weight: 500;
+
+    }
+    .big_text_slogan_1{
+        font-size: 48px;
+        font-weight: bold;
+        color: #E5D6B1;
+        line-height: 1.2;
+    }
+    .big_text_slogan_2{
+        font-size: 96px;
+        font-weight:600;
+        color: #E5E5D6;
+        line-height: 0.9em;
+    }
+    #slogan_1{
+        display: none;
+    }
+    .intro{
+        width: 80% ;
+    }
 }
 
 
