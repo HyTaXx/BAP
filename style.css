@@ -11,7 +11,8 @@
     --light-button-color: #E5D6B1;
     --dark-background-color: #022135;
     --black-text-color: #1C0000;
-    --light-shadow-color: #84827F;
+    --light-button-shadow-color: #84827F;
+    --shadow-color: #9AA28F;
 }
 
 body{
@@ -51,7 +52,7 @@ body{
     font-family: "sofia-pro",sans-serif;
     font-weight : 300;
     color: white;
-    box-shadow: -10px 0px 0px 0px #9AA38F;
+    box-shadow: -10px 0px 0px 0px var(--shadow-color);
     font-size: 16px;
 }
 
@@ -175,7 +176,7 @@ a{
     background-color: var(--light-button-color);
     display: inline-block;
     cursor: pointer;
-    box-shadow: inset 10px 0 0 0 var(--light-shadow-color);
+    box-shadow: inset 10px 0 0 0 var(--light-button-shadow-color);
     border: 0;
     color: var(--black-text-color);
     font-size: 24px;
@@ -273,7 +274,7 @@ header{
     background-color: var(--light-button-color);
     display: inline-block;
     cursor: pointer;
-    box-shadow: inset 10px 0 0 0 var(--light-shadow-color);
+    box-shadow: inset 10px 0 0 0 var(--light-button-shadow-color);
     border: 0;
     color: var(--black-text-color);
     font-size: 24px;
@@ -284,7 +285,7 @@ header{
 }
 
 #Contactez_moi:hover{
-    box-shadow: inset 230px 0 0 0  var(--light-shadow-color);
+    box-shadow: inset 230px 0 0 0  var(--light-button-shadow-color);
 }
 
 
@@ -371,7 +372,7 @@ footer{
     background-color: var(--light-button-color);
     display: inline-block;
     cursor: pointer;
-    box-shadow: inset 10px 0 0 0 var(--light-shadow-color);
+    box-shadow: inset 10px 0 0 0 var(--light-button-shadow-color);
     border: 0;
     color: var(--black-text-color);
     font-size: 1.5rem;
@@ -380,7 +381,7 @@ footer{
 }
 
 .contact:hover{
-    box-shadow: inset 230px 0 0 0    var(--light-shadow-color);
+    box-shadow: inset 230px 0 0 0    var(--light-button-shadow-color);
 }
 
 
@@ -442,24 +443,26 @@ footer{
     color: white;
     padding: 30px;
     height: 55%;
-    background-color: #022135;
+    background-color: var(--dark-background-color);
     clip-path: polygon(0 0, 100% 10%, 100% 100%, 0% 100%);
 }
 
 #titre-infos{
-    font-family: "sofia-pro",bold;
+    font-family: "sofia-pro",sans-serif;
+    font-weight: bold;
     font-size: 24px;
     color: white;
 }
 
 #titre-infos2{
-    font-family: "sofia-pro",semi-bold;
+    font-family: "sofia-pro",sans-serif;
+    font-weight : 600;
     font-size: 20px;
     color: white;
 }
 
 #texte-infos{
-    font-family: "Halant";
+    font-family: 'Halant',serif;
     font-size: 16px;
     color: white;
 }
@@ -472,17 +475,19 @@ footer{
 }
 
 .font-swag{
-    font-family: "sofia-pro",light;
+    font-family: "sofia-pro",sans-serif;
+    font-weight: 300;
 }
 
 .button-form{
     width: 248px;
     height: 56px;
     margin: auto;
-    background: #E5D6B1;
-    font-family: "sofia-pro",bold;
-    color: black;
-    box-shadow: -10px 0px 0px 0px #9AA38F;
+    background: var(--light-button-color);
+    font-family: "sofia-pro", sans-serif;
+    font-weight:bold;
+    color: var(--black-text-color);
+    box-shadow: -10px 0px 0px 0px var(--shadow-color);
     font-size: 16px;
     border: none;
     font-size: 20px;
@@ -494,7 +499,8 @@ footer{
 
 #titre-form{
     color: white;
-    font-family: "sofia-pro",bold;
+    font-family: "sofia-pro",sans-serif;
+    font-weight :bold;
     font-size: 24px;
 }
 
@@ -509,13 +515,15 @@ footer{
 input{
     height: 56px;
     padding: 8px;
-    font-family: "sofia-pro",light;
+    font-family: "sofia-pro",sans-serif;
+    font-weight: 300;
 }
 
 select{
     height: 56px;
     padding: 8px;
-    font-family: "sofia-pro",light;
+    font-family: "sofia-pro",sans-serif;
+    font-weight: 300;
 }
 
 form{
@@ -543,16 +551,16 @@ form{
 
 @media(max-width:1024px){
     .hamburger{
-      display: block;
+        display: block;
     }
-   .hamburger.active .bar:nth-child(2){
-      opacity: 0;
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
     }
-   .hamburger.active .bar:nth-child(1){
-      transform: translateY(8px) rotate(45deg);
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
     }
-   .hamburger.active .bar:nth-child(3){
-      transform: translateY(-8px) rotate(-45deg);
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
     }
     .hamburger.active{
         position: fixed;
@@ -566,22 +574,22 @@ form{
         top: 0;
         gap: 0;
         flex-direction: column;
-        background-color: #022135;
+        background-color: var(--dark-background-color);
         width: 50%;
         text-align: center;
         transition: 0.5s;
-      }
-     #header_text.active{
+    }
+    #header_text.active{
         right: 0;
-      }
-      #header_text ul{
+    }
+    #header_text ul{
         flex-direction: column;
         gap: 0;
         margin-right: 0;
-      }
-      #contactez{
+    }
+    #contactez{
         width: 100%;
-      }
+    }
 }
 
 .logo-enbas{

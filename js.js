@@ -54,17 +54,5 @@ function test(x,y,z){
         document.getElementById("titre-savoir-plus").innerHTML="Economie d'impôts"
     }
 
-const hamburger = document.querySelector(".hamburger");
-const navMenu = document.querySelector("#header_text");
-
-hamburger.addEventListener("click", () => {
-    hamburger.classList.toggle("active");
-    navMenu.classList.toggle("active");
-})
-
-document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", () => {
-    hamburger.classList.remove("active");
-    navMenu.classList.remove("active");
-}))
 
 }
