@@ -10,6 +10,7 @@
 body{
     background-color: #E5E5D6;
     line-height: 1.2;
+    height: 100vh;
 }
 
 .mes-services{
@@ -182,7 +183,6 @@ header{
     display: flex;
     align-items: center;
     height: 8vh;
-    width: 100vw;
     background-color: #022135;
     font-size: 20px;
     font-family: 'sofia-pro';
@@ -368,6 +368,8 @@ p{
     background-color: var(--light-button-color);
     color: var(--black-text-color);
     box-shadow: -8px  0 var(--light-shadow-color);
+    font-family: "sofia-pro";
+    font-weight: bold;
 }
 
 .logo-footer{
@@ -429,8 +431,9 @@ p{
 .stock-form{
     position: relative;
     height: 670px;
-    width:570px;
+    width:90%;
     padding: 30px;
+    max-width: 570px;
 }
 
 .stock-infos{
@@ -453,7 +456,6 @@ p{
     color: white;
     padding: 30px;
     height: 55%;
-    background-color: #022135;
     clip-path: polygon(0 0, 100% 10%, 100% 100%, 0% 100%);
 }
 
@@ -593,6 +595,28 @@ form{
       #contactez{
         width: 100%;
       }
+
+      .stock-form-info{
+        flex-direction: column-reverse;
+        justify-content: center ;
+      }
+
+      .stock-form{
+        margin: auto;
+      }
+
+      .stock-infos{
+        width: 100vw;
+        background-color: #022135;
+        clip-path: polygon(0 0, 100% 10%, 100% 100%, 0% 100%);
+        max-width: none;
+        padding-top: 100px;
+      }
+
+      #body-contact{
+        background-image: url("img/Background\ ContactPage\ Responsive.png");
+        background-size: cover;
+    }
 }
 
 .logo-enbas{
@@ -600,7 +624,16 @@ form{
     display: none;
 }
 
+@media(max-width:660px){
+}
+
+
+
 @media(max-width:410px){
+
+    body{
+        background-color: #022135;
+    }
 
     #logo{
         margin-left: 10px;
@@ -613,11 +646,6 @@ form{
     #header_text{
     }
 
-    #body-contact{
-        background-image: url("img/Background\ ContactPage\ Responsive.png");
-        background-size: cover;
-    }
-
     .stock-form-info{
         flex-direction: column-reverse;
     }
@@ -628,5 +656,15 @@ form{
 
     .logo-enbas{
         display: block;
+    }
+
+    .bas-infos{
+        clip-path: none;
+        background-color: #022135;
+    }
+
+    .stock-infos{
+        clip-path: none;
+        padding-top: 0;
     }
 }
