@@ -27,6 +27,7 @@ body{
     background: var(--light-background-color) ;
     padding: 40px;
     margin-bottom: 60px;
+
 }
 
 .services{
@@ -37,6 +38,8 @@ body{
     flex-direction: column;
     text-align: center;
     gap: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .services:hover{
@@ -70,6 +73,7 @@ body{
     grid-template-columns: repeat(4,1fr);
     justify-content: space-evenly;
     padding: 50px;
+    gap: 12px;
 }
 
 .titre-section-services{
@@ -96,7 +100,6 @@ body{
     padding: 80px;
     background-image: url('img/fond-propos.png');
     clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 90%);
-    height: 750px;
     margin-top: -80px;
 }
 
@@ -130,7 +133,7 @@ body{
 .img-a-propos{
     margin: auto;
     min-width: 300px;
-    min-height: 380px;
+    height: auto;
 }
 
 a{
@@ -594,10 +597,38 @@ form{
     #section_1{
         background-position: left;
     }
-    #slogan{
+    #slogan_2{
+        padding-top: 24px;
         margin-left: auto;
         margin-right: auto;
-        width: 70%;
+        width: 60%;
+        display: block;
+        font-size: 36px;
+        font-family: "sofia-pro";
+        font-weight: 500;
+        text-align: center;
+
+    }
+    .big_text_slogan_1{
+        font-size: 48px;
+        font-weight: bold;
+        color: #E5D6B1;
+        line-height: 1.2;
+    }
+    .big_text_slogan_2{
+        font-size: 96px;
+        font-weight:600;
+        color: #E5E5D6;
+        line-height: 0.9em;
+    }
+    #slogan_1{
+        display: none;
+    }
+    .intro{
+        width: 80% ;
+    }
+    #slogan_1{
+        display: none;
     }
     
     .text_slogan_2{
@@ -619,7 +650,7 @@ form{
         width: 60%;
     }
     .savoir-plus{
-    background-size: 1000px 500px;
+    background-size: 1000px 600px;
     background-position: center;
     }
     .hamburger{
@@ -690,6 +721,9 @@ form{
     .confidentialite{
         padding-top: 1rem;
     }
+    .savoir-plus{
+        padding: 40px;
+    }
 }
 
 .logo-enbas{
@@ -706,7 +740,7 @@ form{
     }
     footer>div:nth-child(1){
         background-color: #022135;
-        padding: 24px 4em 32px;
+        padding: 24px 3em 32px;
     }
     footer>div:nth-child(2){
         background-color: #000F19;
@@ -726,44 +760,64 @@ form{
     #logo{
         margin-left: 20px;
     }
-    #slogan_2{
-        padding-top: 24px;
+    .a-propos{
+        flex-direction: column;
+        padding: 80px 24px;
+        gap: 24px;
+        text-align: center;
+        margin-top: -140px;
+    }
+    .texte-a-propos{
         margin-left: auto;
         margin-right: auto;
-        width: 60%;
-        display: block;
-        font-size: 36px;
-        font-family: "sofia-pro";
-        font-weight: 500;
-
     }
-    .big_text_slogan_1{
-        font-size: 48px;
-        font-weight: bold;
-        color: #E5D6B1;
-        line-height: 1.2;
+    .img-a-propos-stock{
+        padding: 0;
+        width: 100%;
     }
-    .big_text_slogan_2{
-        font-size: 96px;
-        font-weight:600;
-        color: #E5E5D6;
-        line-height: 0.9em;
+    .texte-a-propos-stock{
+        width: 80%;
     }
-    #slogan_1{
-        display: none;
+    .stock-services{
+        grid-template-columns: repeat(1,400px);
+    }
+    .mes-services{
+        margin-top: -150px;
+        padding: 100px 0 0 0;
+    }
+    #Contactez_moi{
+        margin-bottom: 150px;
     }
     .intro{
-        width: 80% ;
+        width: 90%;
+        text-align: left;
     }
+    .intro>div{
+        text-align: center;
+    }
+    #slogan_2{
+        width: auto;
+        margin-left: 24px;
+        margin-right: 24px;
+        text-align: left;
+    }
+    .experience{
+        flex-direction: column;
+        padding-top: 2em;
+    }
+    .p-exp{
+        width: 100%;
+    }
+    #texte-savoir-plus {
+        width: 80%;
+    }
+    
+    
 }
 
 
 
-@media(max-width:410px){
-
-    body{
-        background-color: #022135;
-    }
+@media(max-width:422px){
 
     #logo{
         margin-left: 10px;
@@ -795,4 +849,16 @@ form{
         clip-path: none;
         padding-top: 0;
     }
+    #slogan_2{
+        font-size: 28px;
+    }
+    .big_text_slogan_1{
+        font-size: 36px;
+        line-height: 1.2;
+    }
+    .big_text_slogan_2{
+        font-size: 72px;
+        line-height: 0.9em;
+    }
+
 }
