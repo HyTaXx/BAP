@@ -13,8 +13,8 @@
         <img id="logo" src="img/logo.png" alt="">
         <div id="header_text">
             <ul>
-                <a href="#services">Services</a>
-                <a href="#propos">A propos</a>
+                <a href="index.html#services">Services</a>
+                <a href="index.html#propos">A propos</a>
             </ul>
             <div id="contactez">
                 <a style="color:black" href="index.html">Retour à l'accueil</a>
