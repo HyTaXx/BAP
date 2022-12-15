@@ -51,10 +51,10 @@ if (empty($interet)) {
        $bodyParagraphs = ["Prenom: {$prenom}<br>","Nom: {$nom}<br>","Telephone: {$telephone}<br>", "Email: {$email}<br>","Interet: {$interet}<br>"];
        $body = join(PHP_EOL, $bodyParagraphs);
 
-       if (mail($toEmail, $emailSubject, $body, $headers)) 
-
-           header('Location: index.php');
-        else {
+       if (mail($toEmail, $emailSubject, $body, $headers)) {
+        mail($toEmail,$emailSubject,$body,$headers);
+        header('Location: index.php');
+       }else {
            $errorMessage = 'Oops, something went wrong. Please try again later';
        }
 
