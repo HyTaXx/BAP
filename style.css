@@ -333,10 +333,6 @@ footer{
     font-family: "sofia-pro", sans-serif;
 }
 
-.sofia{
-    font-family:"sofia-pro", sans-serif;
-}
-
 .flex-col{
     display: flex;
     flex-direction: column;
@@ -564,12 +560,6 @@ form{
     background-color: white;
 }
 
-.black-link{
-    color: var(--black-text-color);
-    font-family: 'sofia-pro', sans-serif;
-    font-weight: bold;
-    font-size : 1.5rem;
-}
 @media(max-width:1312px) {
     .intro{
         margin-left: calc(40% + 200px);
