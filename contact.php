@@ -12,6 +12,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body id="body-contact">
+<?php
+
+$errors = [];
+$errorMessage = '';
+
+if (!empty($_POST)) {
+   $prenom = $_POST['prenom'];
+   $nom = $_POST['nom'];
+   $telephone = $_POST['telephone'];
+   $email = $_POST['email'];
+   $interet = $_POST['interet'];
+
+   if (empty($prenom)) {
+       $errors[] = 'Le champ prenom est vide';
+   }
+   if (empty($nom)) {
+    $errors[] = 'Le champ nom est vide';
+    }
+
+   if (empty($email)) {
+       $errors[] = 'Le champ email est vide';
+   } else if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+       $errors[] = "L'email n'est pas valide";
+   }
+
+   if (empty($telephone)) {
+    $errors[] = 'Le champ telephone est vide';
+}
+if (empty($interet)) {
+    $errors[] = 'Le champ interet est vide';
+}
+
+   if (empty($errors)) {
+       $toEmail = 'clement.souplet78@gmail.com';
+       $emailSubject = 'Nouveau contact provenant du site';
+       $headers = ['From' => $email, 'Reply-To' => $email, 'Content-type' => 'text/html; charset=utf-8'];
+       $bodyParagraphs = ["Prenom: {$prenom}<br>","Nom: {$nom}<br>","Telephone: {$telephone}<br>", "Email: {$email}<br>","Interet: {$interet}<br>"];
+       $body = join(PHP_EOL, $bodyParagraphs);
+
+       if (mail($toEmail, $emailSubject, $body, $headers)) 
+
+           header('Location: index.php');
+        else {
+           $errorMessage = 'Oops, something went wrong. Please try again later';
+       }
+
+   } else {
+
+       $allErrors = join('<br/>', $errors);
+       $errorMessage = "<p class=error>{$allErrors}</p>";
+   }
+}
+
+?>
     <header>
         <title>Thierry Mouky - Gestion de patrimoine</title>
         <img id="logo" src="img/logo.png" alt="logo thierry mouky tm38">
@@ -61,25 +115,26 @@
         <div class="stock-form">
             <div class="form-flex">
                 <h2 id="titre-form">Contactez-Moi</h2>
-                <form action="">
+                <?php echo((!empty($errorMessage)) ? $errorMessage : '') ?>
+                <form method="POST" action="contact.php" id="contact-form">
                     <select name="interet">
-                        <option value="">Je suis intéressé par</option>
-                        <option value="">a</option>
-                        <option value="">b</option>
-                        <option value="">c</option>
+                        <option>Je suis intéressé par...</option>
+                        <option>Je suis intéressé par a</option>
+                        <option>Je suis intéressé par b</option>
+                        <option>Je suis intéressé par c</option>
                     </select>
     
-                    <input type="text" placeholder="Prénom">
-                    <input type="text" placeholder="Nom">
-                    <input type="text" placeholder="Téléphone">
-                    <input type="email" placeholder="Adresse Mail">
-    
+                    <input name="prenom" type="text" placeholder="Prénom">
+                    <input name="nom" type="text" placeholder="Nom">
+                    <input name="telephone" type="text" placeholder="Téléphone">
+                    <input name="email" type="email" placeholder="Adresse Mail">
+                    <button class="button-form"><input  class="button-form" type="submit" value="Envoyer" /></button>
                 </form>
-                <button class="button-form">Envoyer</button>
             </div>
         </div>
     </section>
     <script src="burger.js"></script>
     <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+    <script src="validation.js"></script>
 </body>
 </html>

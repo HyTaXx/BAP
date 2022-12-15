@@ -498,14 +498,21 @@ footer{
     font-family: "sofia-pro", sans-serif;
     font-weight:bold;
     color: var(--black-text-color);
-    box-shadow: -10px 0px 0px 0px var(--shadow-color);
+    box-shadow: inset 10px 0px 0px 0px var(--shadow-color);
     font-size: 16px;
     border: none;
     font-size: 20px;
+    transition: all 0.8s;
 }
+
 
 .button-form:hover{
     cursor: pointer;
+    box-shadow: inset 235px 0px 0px 0px var(--shadow-color);
+}
+.error{
+    color: red;
+    font-family: "sofia-pro", sans-serif;
 }
 
 #titre-form{
