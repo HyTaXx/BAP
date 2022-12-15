@@ -20,7 +20,7 @@
                 <a href="#propos">A propos</a>
             </ul>
             <div id="contactez">
-                <a style="color:black" href="contact.php">Contactez-Moi</a>
+                <a style="color:black" href="contact.html">Contactez-Moi</a>
             </div>
         </div>
         <div class="hamburger">
