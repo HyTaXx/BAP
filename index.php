@@ -7,13 +7,15 @@
     <title>Accueil</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.typekit.net/ydu5xlm.css">
+    <meta name="description" content="Vous avez une question d'ordre patrimonial, fiscal ou financier et vous souhaitez obtenir des informations ?">
+    <meta name="keywords" content="Thierry mouky,TM38,Gestion patrimoine,gestion patrimoniale,fiscal,finance,fiscalité,informations,patrimoine,questions finance,questions patrimoine,question fiscalité">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-
-
 <body>
     <!-- Partie Clément -->
     <header>
-        <img id="logo" src="img/logo.png" alt="">
+        <title>Thierry Mouky - Gestion de patrimoine</title>
+        <img id="logo" src="img/logo.png" alt="Logo Thierry mouky TM38">
         <div id="header_text">
             <ul>
                 <a href="#services">Services</a>
@@ -30,17 +32,19 @@
         </div>
     </header>
     <section id="section_1">
-        <div id="slogan_1">
-            <p>Un accompagnement</p>
-            <p class="text_slogan_2"><span>PERSONNALISÉ</span> parce que</p>
-            <p class="text_slogan_3">Vous êtes <span>UNIQUE</span></p>
-        </div>
-        <div id="slogan_2">
-            <p>Un accompagnement</p>
-            <p><span class="big_text_slogan_1">PERSONNALISÉ</span></p>
-            <p>parce que vous êtes</p>
-            <p><span class="big_text_slogan_2">UNIQUE</span></p>
-        </div>  
+        <h1>
+            <div id="slogan_1">
+                <p>Un accompagnement</p>
+                <p class="text_slogan_2"><span>PERSONNALISÉ</span> parce que</p>
+                <p class="text_slogan_3">Vous êtes <span>UNIQUE</span></p>
+            </div>
+            <div id="slogan_2">
+                <p>Un accompagnement</p>
+                <p><span class="big_text_slogan_1">PERSONNALISÉ</span></p>
+                <p>parce que vous êtes</p>
+                <p><span class="big_text_slogan_2">UNIQUE</span></p>
+            </div>
+        </h1>
         <div class="intro">
             <p>Parce vous êtes unique, je vous propose un accompagnement sur mesure, adapté à vos besoins spécifiques pour optimiser votre fiscalité, faire fructifier votre patrimoine, compléter vos revenus, concrétiser vos projets immobiliers, préparer votre retraite, transmettre votre patrimoine …</p>
             <p>Des solutions existent, je vous aide à les connaitre et déterminer si elles sont adaptées à vos objectifs </p>
@@ -56,25 +60,25 @@
         <h2 id="title-services">Mes Services</h2>
         <div class="stock-services">
             <div class="services" id="s1">
-                <img src="img/Bank.png" alt="logo-branque" class="img-services">
+                <img src="img/Bank.png" alt="logo bank" class="img-services">
                 <h3 class="titre-section-services">Préparer ma <br>retraite</h3>
                 <p class="texte-section-services">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
                 <button class="button-services" id="b1">En Savoir Plus</button>
             </div>
             <div class="services" id="s2">
-                <img src="img/Bank.png" alt="logo-branque" class="img-services">
+                <img src="img/Bank.png" alt="logo bank" class="img-services">
                 <h3 class="titre-section-services">Protection d'un <br>proche</h3>
                 <p class="texte-section-services">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
                 <button class="button-services" id="b2">En Savoir Plus</button>
             </div>
             <div class="services" id="s3">
-                <img src="img/Bank.png" alt="logo-branque" class="img-services">
+                <img src="img/Bank.png" alt="logo bank" class="img-services">
                 <h3 class="titre-section-services">Transmission <br>patrimoniale</h3>
                 <p class="texte-section-services">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
                 <button class="button-services" id="b3">En Savoir Plus</button>
             </div>
             <div class="services" id="s4">
-                <img src="img/Bank.png" alt="logo-branque" class="img-services">
+                <img src="img/Bank.png" alt="logo bank" class="img-services">
                 <h3 class="titre-section-services">Economie <br>d'impôts</h3>
                 <p class="texte-section-services">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
                 <button class="button-services" id="b4">En Savoir Plus</button>
@@ -94,7 +98,7 @@
             <p class="texte-a-propos">Mon approche est basée sur vos objectifs qui sont uniques et dépendent de qui vous êtes. Il est important de vous écouter et de définir ensemble une stratégie financière et patrimoniale pour réaliser vos projets.</p>
         </div>
         <div class="img-a-propos-stock">
-            <img class="img-a-propos" src="img/Rectangle.png" alt="a-propos-img">
+            <img class="img-a-propos" src="img/Rectangle.png" alt="image about">
         </div>
     </section>
     <main>
@@ -129,14 +133,14 @@
         <div class="flex-col">
             <div>
                 <div class="flex-row footer_contact">
-                    <img class="logo-footer" src="img/logo_2.png" alt="">
+                    <img class="logo-footer" src="img/logo_2.png" alt="logo thierry mouky tm38">
                     <div class="flex-col">
                         <div class="flex-row">
-                            <img src="img/phone.svg" alt="">
+                            <img src="img/phone.svg" alt="phone logo">
                             <p>06.64.30.35.89</p>
                         </div>
                         <div class="flex-row">
-                            <img src="img/envelope.svg" alt="">
+                            <img src="img/envelope.svg" alt="letter logo">
                             <p>tm38.conseil.finance@gmail.com</p>
                         </div>
                         <div class="flex-row flex-icon">
