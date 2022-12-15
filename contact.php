@@ -123,9 +123,11 @@ if (empty($interet)) {
                 <form method="POST" action="contact.php" id="contact-form">
                     <select name="interet">
                         <option>Je suis intéressé par...</option>
-                        <option>Je suis intéressé par a</option>
-                        <option>Je suis intéressé par b</option>
-                        <option>Je suis intéressé par c</option>
+                        <option>Gerer mon patrimoine</option>
+                        <option>Gérer ma retraite</option>
+                        <option>Protection d'un proche</option>
+                        <option>Transmission patrimoniale</option>
+                        <option>Economie d'impots</option>
                     </select>
     
                     <input name="prenom" type="text" placeholder="Prénom">

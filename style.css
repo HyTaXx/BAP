@@ -160,7 +160,6 @@ a{
     margin-top: -60px;
     padding: 80px;
     background-image: url(img/bg1.png);
-    height: 550px;
     display: none;
 }
 
@@ -188,7 +187,8 @@ a{
     font-size: 24px;
     padding: 14px 36px 14px 36px;
     transition: all 0.8s;
-    width: 350px;
+    width: 30%;
+    min-width: 280px;
 }
 #btn-savoir-plus:hover{
     box-shadow: inset 330px 0 0 0 var(--light-button-shadow-color);
@@ -590,7 +590,11 @@ form{
     }
     
 }
-@media(max-width:1024px){
+@media(max-width:1100px){
+
+    .stock-plus{
+        margin-bottom: 40px;
+    }
     #section_1{
         background-position: left;
     }
@@ -647,7 +651,7 @@ form{
         width: 60%;
     }
     .savoir-plus{
-    background-size: 1000px 600px;
+    background-size: 1100px 600px;
     background-position: center;
     }
     .hamburger{
@@ -681,7 +685,7 @@ form{
     }
     #header_text.active{
         right: 0;
-        margin-top: 56.22px;
+        margin-top: 6vh;
         display: block;
     }
     #header_text ul{
@@ -764,7 +768,7 @@ form{
         padding: 80px 24px;
         gap: 24px;
         text-align: center;
-        margin-top: -140px;
+        margin-top: -70px;
         clip-path: polygon(0 3%, 100% 0, 100% 100%, 0 97%);
     }
     .texte-a-propos{
@@ -879,6 +883,11 @@ form{
     #phone{
         margin: auto;
         width: 20%;
+    }
+
+    #btn-savoir-plus{
+        min-width: 100px;
+        width: 100%;
     }
 
 }
