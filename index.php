@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thierry Mouky - Accueil Gestion patrimoine</title>
-    <link rel="icon" type="image/x-icon" href="/img/logo_3.png" size="32x32">
+    <link rel="icon" type="image/x-icon" href="/img/logo_3.jpg">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.typekit.net/ydu5xlm.css">
     <meta name="description" content="Vous avez une question d'ordre patrimonial, fiscal ou financier et vous souhaitez obtenir des informations . Contactez moi ici">
@@ -140,12 +140,12 @@
                 <div class="flex-row footer_contact">
                     <img class="logo-footer" src="img/logo_2.png" alt="logo thierry mouky tm38">
                     <div class="flex-col">
-                        <div class="flex-row">
-                            <img src="img/phone.svg" alt="phone logo">
+                        <div class="flex-row mobile">
+                            <img src="img/phone.svg" alt="phone logo" id="phone">
                             <p>06.64.30.35.89</p>
                         </div>
-                        <div class="flex-row">
-                            <img src="img/envelope.svg" alt="letter logo">
+                        <div class="flex-row mobile">
+                            <img src="img/envelope.svg" alt="letter logo" id="mail">
                             <p>tm38.conseil.finance@gmail.com</p>
                         </div>
                         <div class="flex-row flex-icon">

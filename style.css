@@ -132,7 +132,7 @@ body{
 
 .img-a-propos{
     margin: auto;
-    min-width: 300px;
+    min-width: 220px;
     height: auto;
 }
 
@@ -663,12 +663,12 @@ form{
         transform: translateY(-8px) rotate(-45deg);
     }
     .hamburger.active{
-        position: fixed;
-        top: 20px;
+        position: absolute;
         z-index: 3000;
     }
     #header_text{
-        position: fixed;
+        position: absolute;
+        display: none;
         z-index: 3000;
         right: -100%;
         top: 0;
@@ -681,6 +681,8 @@ form{
     }
     #header_text.active{
         right: 0;
+        margin-top: 56.22px;
+        display: block;
     }
     #header_text ul{
         flex-direction: column;
@@ -701,7 +703,7 @@ form{
       }
 
       .stock-infos{
-        width: 100vw;
+        width: 100%;
         background-color: #022135;
         clip-path: polygon(0 0, 100% 10%, 100% 100%, 0% 100%);
         max-width: none;
@@ -763,6 +765,7 @@ form{
         gap: 24px;
         text-align: center;
         margin-top: -140px;
+        clip-path: polygon(0 3%, 100% 0, 100% 100%, 0 97%);
     }
     .texte-a-propos{
         margin-left: auto;
@@ -777,13 +780,15 @@ form{
     }
     .stock-services{
         grid-template-columns: repeat(1,400px);
+        margin-bottom: 120px;
     }
     .mes-services{
         margin-top: -150px;
         padding: 100px 0 0 0;
+        clip-path: polygon(0 0, 100% 3%, 100% 100%, 0% 100%);
     }
     #Contactez_moi{
-        margin-bottom: 150px;
+        margin-bottom: 180px;
     }
     .intro{
         width: 90%;
@@ -809,6 +814,9 @@ form{
         width: 80%;
     }
     
+    .stock-infos{
+        width: 100%;
+    }
     
 }
 
@@ -845,6 +853,7 @@ form{
     .stock-infos{
         clip-path: none;
         padding-top: 0;
+        width: 100%;
     }
     #slogan_2{
         font-size: 28px;
@@ -856,6 +865,20 @@ form{
     .big_text_slogan_2{
         font-size: 72px;
         line-height: 0.9em;
+    }
+
+    .mobile{
+        flex-direction: column;
+    }
+
+    #mail{
+        width: 20%;
+        margin: auto;
+    }
+
+    #phone{
+        margin: auto;
+        width: 20%;
     }
 
 }
