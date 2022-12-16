@@ -87,7 +87,7 @@ if (empty($interet)) {
             <div class="haut-infos">
                 <h2 id="titre-infos">Discutons de votre projet !</h2>
                 <p id="texte-infos">Vous avez une question d'ordre patrimonial, fiscal ou financier et vous souhaitez obtenir des informations ?</p>
-                <h2 id="titre-infos2">Contactez-Moi pour obtenir la meilleure solution !</h2>
+                <h2 id="titre-infos2">Contactez-Moi pour obtenir la meilleure solution</h2>
             </div>
             <div class="logo-enbas">
                 <img src="img/logo_2.png" alt="logo thierry mouky tm38" width="50%">
@@ -103,9 +103,7 @@ if (empty($interet)) {
                         <p>tm38.conseil.finance@gmail.com</p>
                     </div>
                     <div class="flex-row" style="margin-top: 10px;">
-                        <iconify-icon icon="bi:linkedin" style="color: white;" width="32"></iconify-icon>
-                        <iconify-icon icon="bi:instagram" style="color: white;" width="32"></iconify-icon>
-                        <iconify-icon icon="bi:facebook" style="color: white;" width="32"></iconify-icon>
+                        <a href="https://www.linkedin.com/in/thierry-mouky-5496383/?originalSubdomain=fr"><iconify-icon icon="bi:linkedin" style="color: white;" width="32"></iconify-icon></a>
                     </div>
                 </div>
             </div>
@@ -122,7 +120,7 @@ if (empty($interet)) {
                 <form method="POST" action="contact.php" id="contact-form">
                     <select name="interet">
                         <option>Je suis intéressé par...</option>
-                        <option>Gerer mon patrimoine</option>
+                        <option>Gérer mon patrimoine</option>
                         <option>Gérer ma retraite</option>
                         <option>Protection d'un proche</option>
                         <option>Optimiser mes placements</option>

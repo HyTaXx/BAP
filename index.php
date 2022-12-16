@@ -144,9 +144,7 @@
                             <p>tm38.conseil.finance@gmail.com</p>
                         </div>
                         <div class="flex-row flex-icon">
-                            <iconify-icon icon="bi:linkedin" width="32" height="32"></iconify-icon>
-                            <iconify-icon icon="bi:instagram" width="32"></iconify-icon>
-                            <iconify-icon icon="bi:facebook"  width="32" height="32"></iconify-icon>
+                            <a href="https://www.linkedin.com/in/thierry-mouky-5496383/?originalSubdomain=fr"><iconify-icon icon="bi:linkedin" width="32" height="32"></iconify-icon></a>
                         </div>
                     </div> 
                 </div>
