@@ -131,6 +131,7 @@ body{
 }
 
 .img-a-propos{
+    clip-path: polygon(0 4%, 100% 0, 100% 100%, 0 96%);
     margin: auto;
     min-width: 220px;
     height: auto;
@@ -161,6 +162,7 @@ a{
     padding: 80px;
     background-image: url(img/bg1.png);
     display: none;
+    background-size:cover;
 }
 
 .stock-plus{
@@ -169,11 +171,11 @@ a{
     gap: 30px;
 
 }
-
+/*
 #texte-savoir-plus{
     width: 40%;
 }
-
+*/
 #btn-savoir-plus{
     font-family: "sofia-pro",sans-serif;
     font-weight: bold;
@@ -656,8 +658,9 @@ form{
         width: 60%;
     }
     .savoir-plus{
-    background-size: 1100px 600px;
     background-position: center;
+    padding: 40px;
+    clip-path: polygon(0 0, 100% 3%, 100% 97%, 0 100%);
     }
     .hamburger{
         display: block;
@@ -729,9 +732,6 @@ form{
     .confidentialite{
         padding-top: 1rem;
     }
-    .savoir-plus{
-        padding: 40px;
-    }
 }
 
 .logo-enbas{
@@ -768,6 +768,10 @@ form{
     #logo{
         margin-left: 20px;
     }
+    .savoir-plus{
+        clip-path: polygon(0 0, 100% 3%, 100% 97%, 0 100%);
+    }
+
     .a-propos{
         flex-direction: column;
         padding: 80px 24px;

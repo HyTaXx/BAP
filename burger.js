@@ -1,4 +1,3 @@
-console.log('eee')
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector("#header_text");
 

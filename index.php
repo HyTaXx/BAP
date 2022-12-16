@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.typekit.net/ydu5xlm.css">
     <meta name="description" content="Vous avez une question d'ordre patrimonial, fiscal ou financier et vous souhaitez obtenir des informations . Contactez moi ici">
-    <meta name="keywords" content="Thierry mouky,TM38,Gestion patrimoine,gestion patrimoniale,fiscal,finance,fiscalité,informations,patrimoine,questions finance,questions patrimoine,question fiscalité">
+    <meta name="keywords" content="thierry mouky,thierry mouky accueil,thierry mouky site,Thierry mouky,TM38,Gestion patrimoine,gestion patrimoniale,fiscal,finance,fiscalité,informations,patrimoine,questions finance,questions patrimoine,question fiscalité">
     <link rel="apple-touch-icon" href="img/logo_2.png" />
 </head>
 <body>
@@ -33,7 +33,7 @@
     </header>
     <div style="display:none">
         <p>
-            Thierry mouky gestion patrimoine accueil Il est très important que le client fasse attention au processus d'adipiscing. Lâche, le plaisir et autres que nous accusons des dettes de la vie, le sage architecte de la manière de rejeter les temps faciles, avec l'effort de le rechercher arrivera en effet, n'est-ce pas ? Haïssez les nécessités, les peines des devoirs, que nous ne soyons jamais délivrés des flatteries, et ainsi de suite, que certaines des peines. Accepte-t-il qu'il est parfois coupable de s'enfuir ? Il n'y a pas non plus d'autres expédients pour lui, pour ainsi dire ? A moins qu'ils ne soient facilement résolus, il vous reprochera de rejeter les choses laborieuses, etc., que vous obtenez avec la facilité des peines, qui déteste les devoirs, comme choix de devoirs, de lui refuser quelque chose. Être repoussé par les plaisirs des plus méritants des grands, les choisir pour plaire à qui que ce soit au point d'être une erreur de manière, la peine de choisir nos nés rebute le plus, les plus durs d'entre eux ne savent pas ! Il y a des peines que l'option lui fuit, mais le sage ne nous plaît qu'à lui-même, celle qui ne cause aucun trouble, la moindre est opposée à la répudiation. Mais s'il n'y a pas d'expédient de travail, si ce n'est les plaisirs de ceux qui nous accusent de dettes, nous l'accusons d'être né avec douleur dans l'autre partie de la vie qui est l'ouverture des choses ! Surtout, il repousse les temps qui ne sont pas dignes de lui. Les plus grands, dont il est facile de s'occuper et ceux qui le louent, sont libérés de la douleur en rejetant quiconque voit les plus rudes et lui plaît dans le plus petit mode de vie. Ici le corrompu souvent, il reçoit beaucoup d'épreuves et se traduit par un grand soulagement car il suit la douleur elle-même. Il est lié à tous, pour le tout à quelques-uns, dans lesquels les douleurs des loueurs et des moins sont supportées ici ! Et cette chose n'est-elle rien ? De sorte qu'en repoussant l'exercice ultérieur, les douleurs de l'âme seront reçues par la haine, les douleurs de l'âme, en effet, tous les temps eux-mêmes pourvoient à ce que l'élu soit repoussé ; Mais vous devez venir payer la dette, la douleur telle qu'elle procure à ceux qui sont plus âgés que lui mais laisser le confort pour sauver la chose même qui entrave celui qui hait l'amour de tous la distinction des travaux dès l'ouverture de la facilité comment ? En le rejetant, nous blâmons les douleurs de la vie, jamais avec la résilience de refuser la vérité. Avec le temps, ils prévoient que j'expliquerai que la vie, qui arrivera, empêche l'erreur du corps d'ouvrir les accusateurs en pareil et le plus petit avantage. C'est une conséquence des manières de repousser ceux qui doivent supporter la charge de refuser, mais ils sont odieux ! On l'accuse de suivre les plaisirs. Et ils abandonnent souvent cette douleur, les troubles que la fuite suivra, qui est bien la douleur de ceux qui sont corrompus par le travail que nous menons, ne pouvons-nous être aveuglés par rien ? faire le dit j'aime les voitures qui vont vites et les avions aussi l'argent et vroummm siuu de plus j'avance à une vitesse de 452 mètres par kilomètres cubes de plus les pneus sont lisses mais la piste est glissante à cause de la pluie
+            Thierry mouky gestion patrimoine accueil .Il est très important que le client fasse attention au processus d'adipiscing. Lâche, le plaisir et autres que nous accusons des dettes de la vie. Le sage architecte de la manière de rejeter les temps faciles. Avec l'effort de le rechercher arrivera en effet, n'est-ce pas ? Haïssez les nécessités. Les peines des devoirs. Que nous ne soyons jamais délivrés des flatteries, et ainsi de suite. Que certaines des peines. Accepte-t-il qu'il est parfois coupable de s'enfuir ? Il n'y a pas non plus d'autres expédients pour lui. pour ainsi dire ? A moins qu'ils ne soient facilement résolus. Il vous reprochera de rejeter les choses laborieuses. etc.. Que vous obtenez avec la facilité des peines. Qui déteste les devoirs, comme choix de devoirs. de lui refuser quelque chose. Être repoussé par les plaisirs des plus méritants des grands. les choisir pour plaire à qui que ce soit au point d'être une erreur de manière. la peine de choisir nos nés rebute le plus, les plus durs d'entre eux ne savent pas ! Il y a des peines que l'option lui fuit. mais le sage ne nous plaît qu'à lui-même, celle qui ne cause aucun trouble. la moindre est opposée à la répudiation. Mais s'il n'y a pas d'expédient de travail. si ce n'est les plaisirs de ceux qui nous accusent de dettes. nous l'accusons d'être né avec douleur dans l'autre partie de la vie qui est l'ouverture des choses ! Surtout. il repousse les temps qui ne sont pas dignes de lui. Les plus grands, dont il est facile de s'occuper et ceux qui le louent. sont libérés de la douleur en rejetant quiconque voit les plus rudes et lui plaît dans le plus petit mode de vie. Ici le corrompu souvent, il reçoit beaucoup d'épreuves et se traduit par un grand soulagement car il suit la douleur elle-même. Il est lié à tous. pour le tout à quelques-uns. dans lesquels les douleurs des loueurs et des moins sont supportées ici ! Et cette chose n'est-elle rien ? De sorte qu'en repoussant l'exercice ultérieur. les douleurs de l'âme seront reçues par la haine. les douleurs de l'âme, en effet, tous les temps eux-mêmes pourvoient à ce que l'élu soit repoussé. Mais vous devez venir payer la dette, la douleur telle qu'elle procure. à ceux qui sont plus âgés que lui mais laisser le confort pour sauver la chose. même qui entrave celui qui hait l'amour de tous la distinction des travaux dès l'ouverture .de la facilité comment ? En le rejetant, nous blâmons les douleurs de la vie. jamais avec la résilience de refuser la vérité. Avec le temps, ils prévoient que j'expliquerai que la vie. qui arrivera, empêche l'erreur du corps d'ouvrir les accusateurs en pareil et le plus petit avantage. C'est une conséquence des manières de repousser ceux qui. doivent supporter la charge de refuser, mais ils sont odieux ! On l'accuse de suivre les plaisirs. Et ils abandonnent souvent cette douleur, les troubles que la. fuite suivra, qui est bien la douleur de ceux qui sont corrompus .par le travail que nous menons, ne pouvons-nous être aveuglés par rien ? faire le dit j'aime les .voitures qui vont vites et les avions aussi l'argent et vroummm siuu de plus j'avance à une vitesse de 452 mètres par kilomètres cubes de plus les pneus sont lisses mais la piste est glissante à cause de la pluie
         </p>
     </div>
     <section id="section_1">
@@ -67,43 +67,43 @@
             <div class="services" id="s1">
                 <img src="img/Bank.png" alt="logo bank" class="img-services">
                 <h3 class="titre-section-services">Préparer ma <br>retraite</h3>
-                <p class="texte-section-services">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                <p class="texte-section-services">Avant tout, il faut connaitre ses droits et devoirs ...</p>
                 <button class="button-services" id="b1">En Savoir Plus</button>
             </div>
             <div class="services" id="s2">
                 <img src="img/Bank.png" alt="logo bank" class="img-services">
                 <h3 class="titre-section-services">Protection d'un <br>proche</h3>
-                <p class="texte-section-services">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                <p class="texte-section-services">En tant que contribuable, vous êtes soumis à de nombreuses impôts ...</p>
                 <button class="button-services" id="b2">En Savoir Plus</button>
             </div>
             <div class="services" id="s3">
                 <img src="img/Bank.png" alt="logo bank" class="img-services">
                 <h3 class="titre-section-services">Transmission <br>patrimoniale</h3>
-                <p class="texte-section-services">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                <p class="texte-section-services">Face aux accidents de la vie, personne n’est à l’abri ...</p>
                 <button class="button-services" id="b3">En Savoir Plus</button>
             </div>
             <div class="services" id="s4">
                 <img src="img/Bank.png" alt="logo bank" class="img-services">
                 <h3 class="titre-section-services">Economie <br>d'impôts</h3>
-                <p class="texte-section-services">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                <p class="texte-section-services">Les placements financiers constituent des sources de revenus ...</p>
                 <button class="button-services" id="b4">En Savoir Plus</button>
             </div>
         </div>
     </section>
     <section class="savoir-plus" id="test">
         <div class="stock-plus">
-            <h2 id="titre-savoir-plus">Préparer Ma Retraite</h2>
-            <p id="texte-savoir-plus">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda aperiam adipisci distinctio omnis suscipit esse quasi ipsum doloremque dolor beatae. Magni nulla repellat sit nemo id fugit harum porro aliquam!</p>
+            <h2 id="titre-savoir-plus">Titre de base</h2>
+            <p id="texte-savoir-plus">Texte de base</p>
             <a id="btn-savoir-plus" href="contact.php">Discutons de votre Projet</a>
         </div>  
     </section>
     <section class="a-propos" id="propos">
         <div class="texte-a-propos-stock">
             <h2 class="titre-a-propos">A Propos</h2>
-            <p class="texte-a-propos">Mon approche est basée sur vos objectifs qui sont uniques et dépendent de qui vous êtes. Il est important de vous écouter et de définir ensemble une stratégie financière et patrimoniale pour réaliser vos projets.</p>
+            <p class="texte-a-propos">Parce vous êtes unique, je vous propose un accompagnement sur mesure, adapté à vos besoins spécifiques pour optimiser votre fiscalité, faire fructifier votre patrimoine, compléter vos revenus, concrétiser vos projets immobiliers, préparer votre retraite, transmettre votre patrimoine … <br>Des solutions existent, je vous aide à les connaitre et déterminer si elles sont adaptées à vos objectifs. Mon approche est basée sur vos objectifs qui sont uniques et dépendent de qui vous êtes. Il est important de vous écouter et de définir ensemble une stratégie financière et patrimoniale pour réaliser vos projets.</p>
         </div>
         <div class="img-a-propos-stock">
-            <img class="img-a-propos" src="img/Rectangle.png" alt="image about">
+            <img class="img-a-propos" src="img/imgoue.jpg" alt="image about">
         </div>
     </section>
     <main>
@@ -111,13 +111,8 @@
             <h2 class="pl-4 h2-exp">Mon Expérience</h2>
             <div class="flex-row experience">
                 <div class="flex-col">
-                    <h3 class="exp-sous-titre h3-exp">Un accompagnement personnalisé, parce que vous êtes UNIQUE</h3>
-                    <p class="bigger-p light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis explicabo officia nam ex minus quasi neque accusantium commodi obcaecati animi, quam dicta. Accusantium, tenetur. Eligendi assumenda deserunt ratione voluptatem vero reiciendis, nobis cupiditate beatae ad ut ab eum provident. Quaerat libero deleniti dolore iste quisquam ullam illum possimus, perferendis ipsa!</p>
-                </div>
-                <div class="flex-col">
-                    <p class="p-exp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia nulla est sequi molestiae at! Voluptate laborum voluptas nisi quod porro dolores ducimus, eum ea distinctio autem officia dolore repellendus ut.</p>
-                    <p class="p-exp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit numquam repellat maxime quae libero obcaecati tempora qui nobis nisi ratione saepe perspiciatis provident et tempore temporibus, error impedit sunt nemo molestias voluptas! Molestias, sint! Impedit porro iste ad.</p>
-                    <p class="p-exp">Lorem ipsum dolor sit amet consectetur adipisicing elit. A facilis nemo id corporis? Nobis alias ex quos incidunt officia saepe necessitatibus doloribus quia molestiae ducimus.</p>
+                <h3 class="exp-sous-titre h3-exp">Comment se passe un entretien ?</h3>
+                    <p class="bigger-p light">Dans un premier temps, je me présente et vous explique dans quel cadre je travaille et ce que je peux vous apporter. Puis nous verrons ensemble ce que l’on entend par patrimoine et comment le constituer ou l’optimiser dans le temps, quelle que soit sa situation personnelle ou professionnelle. Enfin, je serai amené à vous poser des questions pour recueillir des informations sur votre situation familiale, fiscale et financière.Cela me permettra lors d’un second rendez-vous de vous présenter mes préconisations avec une solution qui sera adaptée à vos besoins.</p>
                 </div>
             </div>
             

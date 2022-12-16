@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thierry Mouky - Contact Gestion patrimoine</title>
-    <link rel="icon" type="image/x-icon" href="/img/logo_3.png" size="32x32">
+    <link rel="icon" type="image/x-icon" href="/img/logo_3.jpg">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.typekit.net/ydu5xlm.css">
     <meta name="description" content="Vous avez une question d'ordre patrimonial, fiscal ou financier et vous souhaitez obtenir des informations ?">
@@ -45,15 +45,14 @@ if (empty($interet)) {
 }
 
    if (empty($errors)) {
-       $toEmail = 'clement.souplet78@gmail.com';
+       $toEmail = 'tm38.conseil.finance@gmail.com';
        $emailSubject = 'Nouveau contact provenant du site';
        $headers = ['From' => $email, 'Reply-To' => $email, 'Content-type' => 'text/html; charset=utf-8'];
        $bodyParagraphs = ["Prenom: {$prenom}<br>","Nom: {$nom}<br>","Telephone: {$telephone}<br>", "Email: {$email}<br>","Interet: {$interet}<br>"];
        $body = join(PHP_EOL, $bodyParagraphs);
 
        if (mail($toEmail, $emailSubject, $body, $headers)) {
-        mail($toEmail,$emailSubject,$body,$headers);
-        header('Location: index.php');
+        //yeayyy
        }else {
            $errorMessage = 'Oops, something went wrong. Please try again later';
        }
@@ -126,8 +125,8 @@ if (empty($interet)) {
                         <option>Gerer mon patrimoine</option>
                         <option>Gérer ma retraite</option>
                         <option>Protection d'un proche</option>
-                        <option>Transmission patrimoniale</option>
-                        <option>Economie d'impots</option>
+                        <option>Optimiser mes placements</option>
+                        <option>Optimiser ma fiscalité</option>
                     </select>
     
                     <input name="prenom" type="text" placeholder="Prénom">
