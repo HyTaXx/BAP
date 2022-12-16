@@ -53,9 +53,9 @@
         <div class="intro">
             <p>Parce vous êtes unique, je vous propose un accompagnement sur mesure, adapté à vos besoins spécifiques pour optimiser votre fiscalité, faire fructifier votre patrimoine, compléter vos revenus, concrétiser vos projets immobiliers, préparer votre retraite, transmettre votre patrimoine …</p>
             <p>Des solutions existent, je vous aide à les connaitre et déterminer si elles sont adaptées à vos objectifs </p>
-            <p>Vous êtes un entrepreneur, je vous aide à optimiser votre rémunération, optimiser votre trésorerie et vous accompagne dans les étapes de la vie votre entreprise (levée de fonds, développement, transmission, ...</p>
+            <p>Vous êtes un entrepreneur, je vous aide à optimiser votre rémunération, optimiser votre trésorerie et vous accompagne dans les étapes de la vie votre entreprise (levée de fonds, développement, transmission, épargne salariale ...)</p>
             <div>
-                <a id="Contactez_moi" href="contact.php"> Contactez moi </a>
+                <a id="Contactez_moi" href="contact.php"> Contactez-Moi </a>
             </div>
         </div>
     </section>
@@ -68,6 +68,7 @@
                 <img src="img/Bank.png" alt="logo bank" class="img-services">
                 <h3 class="titre-section-services">Préparer ma <br>retraite</h3>
                 <p class="texte-section-services">Avant tout, il faut connaitre ses droits et devoirs ...</p>
+                <!--p class="texte-section-services">Quelles dépenses pourront être supprimées au moment de votre retraite ? Quelles sont celles qui viendront s’ajouter ? Une chose est sure. Il faut anticiper ces évolutions budgétaires. </p-->
                 <button class="button-services" id="b1">En Savoir Plus</button>
             </div>
             <div class="services" id="s2">
@@ -79,7 +80,7 @@
             <div class="services" id="s3">
                 <img src="img/Bank.png" alt="logo bank" class="img-services">
                 <h3 class="titre-section-services">Transmission <br>patrimoniale</h3>
-                <p class="texte-section-services">Face aux accidents de la vie, personne n’est à l’abri ...</p>
+                <p class="texte-section-services">Face aux accidents de la vie, personne n'est à l'abri ...</p>
                 <button class="button-services" id="b3">En Savoir Plus</button>
             </div>
             <div class="services" id="s4">
@@ -100,7 +101,9 @@
     <section class="a-propos" id="propos">
         <div class="texte-a-propos-stock">
             <h2 class="titre-a-propos">A Propos</h2>
-            <p class="texte-a-propos">Parce vous êtes unique, je vous propose un accompagnement sur mesure, adapté à vos besoins spécifiques pour optimiser votre fiscalité, faire fructifier votre patrimoine, compléter vos revenus, concrétiser vos projets immobiliers, préparer votre retraite, transmettre votre patrimoine … <br>Des solutions existent, je vous aide à les connaitre et déterminer si elles sont adaptées à vos objectifs. Mon approche est basée sur vos objectifs qui sont uniques et dépendent de qui vous êtes. Il est important de vous écouter et de définir ensemble une stratégie financière et patrimoniale pour réaliser vos projets.</p>
+            <p class="texte-a-propos">Après avoir travaillé plus de 25 ans en banque d'investissement (gestions d'actifs, finance de marché et d'entreprise), j'ai décidé de mettre mon expérience et mes connaissances à votre service pour vous permettre de réaliser vos projets. 
+Diplômé de mathématiques et de finance (DEA Dauphine-ENSAE), j'ai complété ma formation avec un Master 2 en Finance d'Entreprise et un Master 2 en Gestion de Patrimoine.
+Aujourd'hui, j'accompagne désormais pour réaliser vos projets, pour réduire la fiscalité, optimiser l'épargne, constituer un patrimoine, préparer sa retraite, protéger sa famille...<br>Parce vous êtes unique, je vous propose un accompagnement sur mesure, adapté à vos besoins spécifiques pour optimiser votre fiscalité, faire fructifier votre patrimoine, compléter vos revenus, concrétiser vos projets immobiliers, préparer votre retraite, transmettre votre patrimoine … <br>Des solutions existent, je vous aide à les connaitre et déterminer si elles sont adaptées à vos objectifs. Mon approche est basée sur vos objectifs qui sont uniques et dépendent de qui vous êtes. Il est important de vous écouter et de définir ensemble une stratégie financière et patrimoniale pour réaliser vos projets.</p>
         </div>
         <div class="img-a-propos-stock">
             <img class="img-a-propos" src="img/imgoue.jpg" alt="image about">
@@ -112,7 +115,16 @@
             <div class="flex-row experience">
                 <div class="flex-col">
                 <h3 class="exp-sous-titre h3-exp">Comment se passe un entretien ?</h3>
-                    <p class="bigger-p light">Dans un premier temps, je me présente et vous explique dans quel cadre je travaille et ce que je peux vous apporter. Puis nous verrons ensemble ce que l’on entend par patrimoine et comment le constituer ou l’optimiser dans le temps, quelle que soit sa situation personnelle ou professionnelle. Enfin, je serai amené à vous poser des questions pour recueillir des informations sur votre situation familiale, fiscale et financière.Cela me permettra lors d’un second rendez-vous de vous présenter mes préconisations avec une solution qui sera adaptée à vos besoins.</p>
+                    <p class="bigger-p light">Dans un premier temps, je me présente et vous explique dans quel cadre je travaille et ce que je peux vous apporter. Puis nous verrons ensemble ce que l'on entend par patrimoine et comment le constituer ou l'optimiser dans le temps, quelle que soit sa situation personnelle ou professionnelle. Enfin, je serai amené à vous poser des questions pour recueillir des informations sur votre situation familiale, fiscale et financière.Cela me permettra lors d'un second rendez-vous de vous présenter mes préconisations avec une solution qui sera adaptée à vos besoins.</p>
+                    <!--p>
+                    Réduire sa fiscalité
+                    Pourtant plusieurs dispositifs permettent aux particuliers de réduire leur imposition, comme celle relative aux niches fiscales.
+                    <br>
+                    Prévoyance
+                    Face aux accidents de la vie, personne n’est à l’abri. Ce qui conduit à une situation financière risquée sans la garantie d’assurances complémentaires 
+                    <br>
+                    Placements
+                    Les placements financiers constituent des sources de revenus potentiellement très intéressantes. Mais il faut prendre un certain nombre d’éléments en compte pour les optimiser<p-->
                 </div>
             </div>
             
@@ -125,10 +137,10 @@
         <div>
             <div class="flex-col">
                 <h2 class="h2-exp">Discutons de votre projet !</h2>
-                <p class="p-exp w-400">Vous avez une question d’ordre patrimonial, fiscal ou financier et vous souhaitez obtenir des informations  ? </p>
+                <p class="p-exp w-400">Vous avez une question d'ordre patrimonial, fiscal ou financier et vous souhaitez obtenir des informations  ? </p>
                 <p class=" w-400 bigger-p">Contactez-moi pour obtenir la meilleure solution !</p>
             </div>
-            <a class="pad-top contact light-button" href="contact.php">Contactez-Moi !</a>
+            <a class="pad-top contact light-button" href="contact.php">Contactez-Moi</a>
         </div>
         <div class="flex-col">
             <div>
