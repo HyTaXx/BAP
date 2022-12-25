@@ -65,26 +65,26 @@
         <h2 id="title-services">Mes Services</h2>
         <div class="stock-services">
             <div class="services" id="s1">
-                <img src="img/Bank.png" alt="logo bank" class="img-services">
+                <img src="img/Vector_3.png" alt="logo bank" class="img-services" height="112px">
                 <h3 class="titre-section-services">Préparer ma <br>retraite</h3>
                 <p class="texte-section-services">Avant tout, il faut connaitre ses droits et devoirs ...</p>
                 <!--p class="texte-section-services">Quelles dépenses pourront être supprimées au moment de votre retraite ? Quelles sont celles qui viendront s’ajouter ? Une chose est sure. Il faut anticiper ces évolutions budgétaires. </p-->
                 <button class="button-services" id="b1">En Savoir Plus</button>
             </div>
             <div class="services" id="s2">
-                <img src="img/Bank.png" alt="logo bank" class="img-services">
+                <img src="img/Vector.png" alt="logo bank" class="img-services" height="112px">
                 <h3 class="titre-section-services">Protection d'un <br>proche</h3>
                 <p class="texte-section-services">En tant que contribuable, vous êtes soumis à de nombreuses impôts ...</p>
                 <button class="button-services" id="b2">En Savoir Plus</button>
             </div>
             <div class="services" id="s3">
-                <img src="img/Bank.png" alt="logo bank" class="img-services">
+                <img src="img/Vector_1.png" alt="logo bank" class="img-services" height="112px">
                 <h3 class="titre-section-services">Transmission <br>patrimoniale</h3>
                 <p class="texte-section-services">Face aux accidents de la vie, personne n'est à l'abri ...</p>
                 <button class="button-services" id="b3">En Savoir Plus</button>
             </div>
             <div class="services" id="s4">
-                <img src="img/Bank.png" alt="logo bank" class="img-services">
+                <img src="img/Vector_2.png" alt="logo bank" class="img-services" height="112px">
                 <h3 class="titre-section-services">Economie <br>d'impôts</h3>
                 <p class="texte-section-services">Les placements financiers constituent des sources de revenus ...</p>
                 <button class="button-services" id="b4">En Savoir Plus</button>
@@ -111,10 +111,9 @@ Aujourd'hui, j'accompagne désormais pour réaliser vos projets, pour réduire l
     </section>
     <main>
         <div class="mon-experience black-text">
-            <h2 class="pl-4 h2-exp">Mon Expérience</h2>
+            <h2 class="pl-4 h2-exp">Comment se passe un entretien ?</h2>
             <div class="flex-row experience">
                 <div class="flex-col">
-                <h3 class="exp-sous-titre h3-exp">Comment se passe un entretien ?</h3>
                     <p class="bigger-p light">Dans un premier temps, je me présente et vous explique dans quel cadre je travaille et ce que je peux vous apporter. Puis nous verrons ensemble ce que l'on entend par patrimoine et comment le constituer ou l'optimiser dans le temps, quelle que soit sa situation personnelle ou professionnelle. Enfin, je serai amené à vous poser des questions pour recueillir des informations sur votre situation familiale, fiscale et financière.Cela me permettra lors d'un second rendez-vous de vous présenter mes préconisations avec une solution qui sera adaptée à vos besoins.</p>
                     <!--p>
                     Réduire sa fiscalité
