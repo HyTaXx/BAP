@@ -18,5 +18,10 @@ Reproduction of a model with Vue.js , Vite.js and tailwindcss
 git clone git@github.com:HyTaXx/BAP.git
 ```
 
+## Authors
 
+Authors names
 
+ex. [Armand Nobre](https://github.com/HyTaXx)
+ex. [Ambroise Piétu](https://github.com/FrAmbroise)
+ex. [Clément Souplet](https://github.com/Clansou)
