@@ -1,4 +1,4 @@
-# Model-Vue-Vite
+# BAP
 
 Reproduction of a model with Vue.js , Vite.js and tailwindcss
 
